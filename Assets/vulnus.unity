@@ -1232,7 +1232,7 @@ GameObject:
   - component: {fileID: 1708902141}
   - component: {fileID: 1708902140}
   m_Layer: 5
-  m_Name: Button
+  m_Name: criarsala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class TrocarCena : MonoBehaviour
+public class CriarSala : MonoBehaviour
 {
-    public void IrParaCena3()
+    public void Abrircena3()
     {
         SceneManager.LoadScene("cena 3");
     }
