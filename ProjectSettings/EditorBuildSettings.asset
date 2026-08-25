@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/cena 2.unity
     guid: b3353c3229c993c4eac695e6042eabfd
+  - enabled: 1
+    path: Assets/cena 3.unity
+    guid: 992b5acd65ffa924591990aee8243a89
   m_configObjects: {}
