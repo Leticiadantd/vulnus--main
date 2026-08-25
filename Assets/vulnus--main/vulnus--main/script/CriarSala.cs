@@ -7,6 +7,8 @@ public class TrocarCena : MonoBehaviour
     {
         SceneManager.LoadScene("cena 3");
          
-         
+           
+
+           
     }
 }
