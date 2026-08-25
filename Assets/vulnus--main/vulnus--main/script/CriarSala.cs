@@ -6,5 +6,6 @@ public class CriarSala : MonoBehaviour
     public void Abrircena3()
     {
         SceneManager.LoadScene("cena 3");
+
     }
 }

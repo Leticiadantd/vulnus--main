@@ -6,5 +6,6 @@ public class MenuController : MonoBehaviour
     public void Jogar()
     {
         SceneManager.LoadScene("cena 2");
+
     }
 }
