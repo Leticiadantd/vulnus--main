@@ -8,5 +8,9 @@ public class CriarSala : MonoBehaviour
     {
         SceneManager.LoadScene("cena 3");
 
+         
+           
+
+           
     }
 }
