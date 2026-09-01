@@ -19,22 +19,21 @@ public class GerenciadorDeNome : MonoBehaviour
     {
         if (string.IsNullOrWhiteSpace(campoDeNome.text))
         {
-            criarSala.interactable = false; // Desativa o botão se o campo estiver vazio
+            jogar.interactable = false; // Desativa o botão se o campo estiver vazio
             
             if (string.IsNullOrWhiteSpace(CampoDeSenha.text))
             {
-                jogar.interactable = false; // Desativa o botão se o campo estiver vazio
+                criarSala.interactable = false; // Desativa o botão se o campo estiver vazio
             }
             else
             {
-                               jogar.interactable = true; // Ativa o botão se o campo tiver texto
+                criarSala.interactable = true; // Ativa o botão se o campo tiver texto
             }
 
         }
         else
         {
-            criarSala.interactable = true; // Ativa o botão se o campo tiver texto
- 
+            jogar.interactable = true; // Ativa o botão se o campo tiver texto
         }
 
     }
