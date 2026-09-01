@@ -17,11 +17,11 @@ public class GerenciadorDeNome : MonoBehaviour
 
     public void quandoOCampoDeNomeMudar( )
     {
-        if (string.IsNullOrWhiteSpace(campoDeNome.text))
+        if (string.IsNullOrWhiteSpace(CampoDeSenha.text))
         {
             jogar.interactable = false; // Desativa o botão se o campo estiver vazio
             
-            if (string.IsNullOrWhiteSpace(CampoDeSenha.text))
+            if (string.IsNullOrWhiteSpace(campoDeNome.text))
             {
                 criarSala.interactable = false; // Desativa o botão se o campo estiver vazio
             }
